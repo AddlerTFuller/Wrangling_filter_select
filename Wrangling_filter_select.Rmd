@@ -22,6 +22,8 @@ data(movies)
 
 It's always a good idea to do some recon work first. What do the data look like? How many observations and variables do we have? What are the variable names?
 
+This data appears to provide movie genres from 1939 to 2002, together with the film's title, year of release, length, production budget, and user rating to determine how well received it was. 
+
 
 ```{r}
 # View() opens the data in another window. 'head(movies)' will show the first few rows.
